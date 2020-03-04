@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         val callMenuItem = nav_view.menu.findItem(R.id.call)
         // Here you can see the margin problem on Android 6: the top margin is not showing on Android 6 devices, but shows on other.
         callMenuItem.setActionView(R.layout.call_text)
+
+        val navigationHeaderView = layoutInflater.inflate(R.layout.drawer_header_view,nav_view,false)
+        nav_view.addHeaderView(navigationHeaderView)
     }
 
     override fun onBackPressed() {
