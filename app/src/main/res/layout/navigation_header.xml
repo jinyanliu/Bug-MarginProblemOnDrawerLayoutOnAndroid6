@@ -9,18 +9,18 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"></ImageView>
+        android:src="@mipmap/ic_launcher_round"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next Tech Pro"
+        android:text="Jinyan Liu"
         android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textColor="#FFFFFF"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="admin@nexttechpro.com"
+        android:text="jane.jinyan.liu@gmail.com"
         android:textSize="16sp"
         android:textColor="#FFFFFF"/>
 
