@@ -1,6 +1,7 @@
 package com.example.marginproblemonandroid6
 
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -35,6 +36,10 @@ class MainActivity : AppCompatActivity() {
             drawer_layout.closeDrawer(GravityCompat.START)
             true
         }
+
+        val callMenuItem = nav_view.menu.findItem(R.id.call)
+        // Here you can see the margin problem on Android 6: the top margin is not showing on Android 6 devices, but shows on other.
+        callMenuItem.setActionView(R.layout.call_icon)
     }
 
     override fun onBackPressed() {
