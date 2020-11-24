@@ -5,5 +5,5 @@ How to reproduce:
 2. Open Drawer Layout by clicking the hamburger icon on left top corner.
 3. Observe missing margins on Android 6. If you cannot find them, search for "// Here you can see the margin problem on Android 6:" in the whole project.
 
-Solutions:
+Solution:
 - Can be fixed by wrapping a LinearLayout outside of the TextViews.
